@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, 
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+border:0 none;
+font-size:100%;
+font-weight:inherit;
+margin:0;
+padding:0;
+vertical-align:baseline;
+outline:0 none;
+color:inherit; 
+text-decoration:none;
+list-style:none;
+}
+
+
+.clearfloat{clear:both;}
+
+/* Sticky footer start */
+* {margin: 0;}
+html, body { height: 100%; font-family:"Arial"; font-size:16px; color:#43464D;}
+.wrapper {min-height: 100%; width:auto; height: auto !important; height: 100%; margin: 0 auto -80px; /* the bottom margin is the negative value of the footer's height */}
+#footer, .push { height: 80px; /* .push must be the same height as footer */}
+/* Sticky footer end */
+
+
+
+/* Header & Navigation start */
+
+#headercon {width:100%; height:52px; border-top:4px solid #eb0128; background-color:#f0f1f4; border-bottom:1px solid #d8dde1; overflow:visible;}
+#headercon #headerinner {width:940px; height:auto; margin-left:auto; margin-right:auto; }
+#headercon #headerinner #logo {padding-top:16px; float:left}
+
+#headercon #headerinner #nav {width:342px; margin-left:50px; float:left;}
+#headercon #headerinner #nav ul {list-style:none;}
+#headercon #headerinner #nav ul li {float:left; color:#828182; padding-left:20px; padding-right:20px; border-left:1px solid #bfbfc1; height:34px; padding-top:18px;}
+#headercon #headerinner #nav ul li .imgcon {margin-right:5px; padding-top:5px; width:10px; float:left;}
+#headercon #headerinner #nav ul li:hover {background-color:#fbfbfc}
+
+#headercon #headerinner #loggedin {float:right; font-size:12px; color:#828182; padding-top:20px;}
+#headercon #headerinner #loggedin ul {list-style:none;}
+#headercon #headerinner #loggedin ul li {float:left; width:auto; padding-left:5px; padding-right:5px;}
+#headercon #headerinner #loggedin a:hover {text-decoration:underline;}
+
+/* Header & Navigation end */
+
+
+/* Body start */
+
+#bodycon {width:940px;  margin-left:auto; margin-right:auto; margin-top:40px; }
+#bodycon #logincon {width:500px; height:auto; margin-left:auto; margin-right:auto; border:1px solid #d9d9db}
+#bodycon #logincon .tbleheader {width:100%; height:38px; background-image:url(../img/header-bg.jpg);  background-repeat:repeat-x;  }
+#bodycon #logincon .tbleheader h1{ padding-top:10px; padding-left:10px; color:#fff; font-size:16px; font-weight:normal; }
+
+#bodycon #logincon #leftcol { width:250px; float:left; }
+#bodycon #logincon .row {width:100%; height:40px; background-image:url(../img/row-bg.jpg); background-repeat:repeat-x; background-position:bottom; border-bottom:1px solid #e8e8e8; border-right:1px solid #e8e8e8;  border-left:1px solid #e8e8e8;}
+#bodycon #logincon .row p {padding-top:15px; padding-left:10px; color:#828182; font-size:14px; font-weight:bold;} 
+
+#bodycon #logincon #rightcol {width:250px; float:right; height:auto;}
+#bodycon #logincon #rightcol .rrow {border-bottom:1px solid #e8e8e8; height:40px; border-right:1px solid #e8e8e8;}
+#bodycon #logincon #rightcol .rrow .login {height:35px; background-color:transparent; width:200px; margin-left:10px; border:none; padding-top:5px; outline : 0; -moz-outline : 0; border : 0}
+
+
+#bodycon #breadcrumbs {height:auto; width:700px; float:left}
+#bodycon #breadcrumbs h1 {font-size:26px; font-weight:bold; color:#828182; float:left; margin-right:10px;}
+#bodycon #breadcrumbs h2 {font-size:16px; font-weight:bold; color:#828182; float:left; margin-top:8px;}
+#bodycon #breadcrumbs a:hover {text-decoration:underline;}
+
+
+#bodycon #admincon {margin-top:30px;}
+#bodycon #admincon .adminbtns {background-image:url(../img/large-btn-bg.jpg); background-repeat:no-repeat; width:466px; height:73px; float:left; margin-bottom:10px;}
+#bodycon #admincon .adminbtns  img {margin-top:12px; margin-left:12px; float:left; width:59px; height:54px; }
+#bodycon #admincon .adminbtns h1 {text-shadow: 1px 1px #FFFFFF; color:#616161; font-size:24px; font-weight:bold; float:left; margin-left: 40px; margin-top:16px; width:300px;}
+#bodycon #admincon .adminbtns h2 {text-shadow: 1px 1px #FFFFFF; color:#616161; font-size:14px; font-weight:normal; float:left; margin-left: 40px;  width:350px;}
+
+#bodycon #searchbox .txtfield2 {float:right; height:20px; padding-left:25px; margin-top:-25px;  width:240px; background-color:#fff; border: 1px solid #e1e2e5; background-image:url(../img/search-icon.png); background-repeat:no-repeat; background-position: 5px; }
+
+#bodycon #archives {float:right; margin-top:20px; font-size:14px; color:#999; margin-right:20px;}
+#bodycon #archives a {}
+#bodycon #archives a:hover {text-decoration:underline;}
+
+#bodycon #editbar {background-image:url(../img/gray-btn-bg.jpg); background-repeat:repeat-x; background-position:bottom; height:40px; border:1px solid #e8e8e8; width:940px; margin-top:20px; margin-bottom:20px;}
+
+
+#bodycon #editbar fieldset {float:left}
+#bodycon #editbar fieldset label {margin-top:10px; font-size:14px; font-weight:bold; color:#828182; vertical-align:middle; }
+#bodycon #editbar fieldset .txtfield {height:18px; background-color:#fff; width:300px; margin-left:10px; padding-left:10px; border:1px solid #e8e8e8; margin-top:10px; }
+
+
+	/* Table elements */
+
+#bodycon #tablecon {margin-top:30px; width:100%}
+#bodycon #tablecon th {background-image:url(../img/header-bg.jpg); background-repeat:repeat-x; height:38px; text-align:left; vertical-align:middle; padding-left:10px;  color:#fff; font-weight:normal; font-size:16px; border-right:1px solid #a7cbe2;}
+#bodycon #tablecon table {border-collapse:collapse;}
+#bodycon #tablecon .headerbord {border:1px solid #265e84; padding-bottom:-10px;}
+
+#bodycon #tablecon td {padding-left:10px; padding-top:7px; padding-bottom:7px; padding-right:15px; vertical-align:middle; border:1px solid #ccc; color:#828182; font-size:14px; }
+#bodycon #tablecon .bolder {color:#828182; font-size:14px; font-weight:bold; }
+#bodycon #tablecon .sndrow {background-image:url(../img/row-bg.jpg); background-repeat:repeat-x;}
+#bodycon #tablecon .txtfield {height:25px; background-color:transparent; width:500px; margin-left:-12px; padding-left:10px; border:none; outline : 0; -moz-outline : 0; border : 0}
+#bodycon #tablecon .txtfield2 {width:300px; }
+#bodycon #tablecon fieldset {float:left; margin-right:30px; margin-bottom:15px; width:200px}
+#bodycon #tablecon fieldset .checks {float:left; margin-top:5px;}
+#bodycon #tablecon fieldset label {font-size:14px; font-weight:normal; margin-top:4px; margin-left:10px; float:left;}
+
+#bodycon #tablecon .marks {background-color:#fff; border: 1px solid #CCC; height:20px; width:70px;}
+
+	/* Table elements end */
+	
+	
+	
+	
+	/* Wide Table elements */
+
+#tableconwide {margin-top:30px; width:95%; margin-left:auto; margin-right:auto; }
+#tableconwide th {background-image:url(../img/header-bg.jpg); background-repeat:repeat-x; height:38px; text-align:left; vertical-align:middle; padding-left:10px;  color:#fff; font-weight:normal; font-size:16px; border-right:1px solid #a7cbe2;}
+#tableconwide table {border-collapse:collapse;}
+#tableconwide .headerbord {border:1px solid #265e84; padding-bottom:-10px;}
+
+#tableconwide td {padding-left:10px; padding-top:7px; padding-bottom:7px; padding-right:15px; vertical-align:middle; border:1px solid #ccc; color:#828182; font-size:14px; }
+#tableconwide .bolder {color:#828182; font-size:14px; font-weight:bold; }
+#tableconwide .sndrow {background-image:url(../img/row-bg.jpg); background-repeat:repeat-x;}
+#tableconwide .txtfield {height:25px; background-color:transparent; width:500px; margin-left:-12px; padding-left:10px; border:none; outline : 0; -moz-outline : 0; border : 0}
+#tableconwide .txtfield2 {width:300px; }
+#tableconwide fieldset {float:left; margin-right:30px; margin-bottom:15px; width:200px}
+#tableconwide fieldset .checks {float:left; margin-top:5px;}
+#tableconwide fieldset label {font-size:14px; font-weight:normal; margin-top:4px; margin-left:10px; float:left;}
+#tableconwide .collend {border-right:2px solid #999;}
+
+#tableconwide .marks {background-color:#fff; border: 1px solid #CCC; height:20px; width:70px;}
+#tableconwide .hightr {height:500px;}
+#tableconwide .hightr2 {height:270px; }
+
+
+
+#tableconwide p.css-vertical-text2 {
+	
+	color:#828182;
+	border:0px solid red;
+	writing-mode:tb-rl;
+	margin-top:200px;
+	padding-bottom:10px;
+	-webkit-transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+	-o-transform: rotate(270deg);
+	white-space:nowrap;
+	display:block;	
+	width:50px;
+	height:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	text-align:left;
+	vertical-align:centeral3;
+	bottom:0px;
+
+}
+
+
+
+
+#tableconwide p.css-vertical-text {
+	
+	color:#828182;
+	border:0px solid red;
+	writing-mode:tb-rl;
+	margin-top:400px;
+	-webkit-transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+	-o-transform: rotate(270deg);
+	white-space:nowrap;
+	display:block;	
+	width:50px;
+	height:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	text-align:left;
+	vertical-align:centeral3;
+	bottom:0px;
+
+}
+
+
+
+
+	/* Table elements end */
+
+
+
+/* Body end */
+
+
+
+
+#footer {height:79px; width:100%; border-top:1px solid #d8dde1; background-color:#f0f1f4;}
+#footer #footinn {width:940px; height:auto; margin-left:auto; margin-right:auto; padding-top:20px;}
+#footer #footinn #copyright {font-size:12px; color:#b3b3b3; padding-top:15px; float:left; }
+#footer #footinn #poweredby {float:right; padding-top:10px;}
+
+
+
+
+
+
+
+
+
+
+/* Buttons */
+
+
+button{
+color:#ffffff;
+font:14px Arial, Helvetica, sans-serif;
+padding-left:10px;
+padding-right:10px;
+padding-top:6px;
+padding-bottom:6px;
+letter-spacing:0;
+background-image:url(../img/greenbtn-bg.jpg); background-repeat:repeat-x; 
+border:1px solid #189718;
+
+
+cursor:pointer;
+text-shadow: 0 1px 0 #666;
+}
+
+
+button.gray {background-image:url(../img/gray-btn-bg.jpg); background-repeat:repeat-x; 
+border:1px solid #c9c9c9; color:#828182; text-shadow:none; }
+
+
+.hasPlaceholder {
+	color: #777;
+}
+select #SchoolSessionStartYearMonth{border: 1px red solid}
